@@ -1,0 +1,1 @@
+select * from payments where day(paymentDate) = 5 or day(paymentDate) = 6;

@@ -1,0 +1,1 @@
+select distinct orderNumber from orderdetails where productCode like 'S18%' and priceEach > 100;
